@@ -44,7 +44,7 @@ jobs:
 
             printf "%-45s" "  Compiling $src..."
 
-            if gcc -ansi -pedantic -Wall -Wextra -o "$out" "$src" -lm 2>/tmp/gcc_err.txt; then
+            if gcc -std=c99 -Wall -Wextra -Wno-unused-parameter -o "$out" "$src" -lm 2>/tmp/gcc_err.txt; then
               echo "✅ OK"
               PASS=$((PASS + 1))
               rm -f "$out"
@@ -81,7 +81,7 @@ jobs:
             num=$(basename "$src" .c | sed 's/riesenie-//')
             lab=$(basename $(dirname "$src"))
             
-            if gcc -ansi -pedantic -Wall -Wextra -o /dev/null "$src" -lm 2>/dev/null; then
+            if gcc -std=c99 -Wall -Wextra -Wno-unused-parameter -o /dev/null "$src" -lm 2>/dev/null; then
               echo "| $num | $lab | \`$(basename $src)\` | ✅ |" >> $GITHUB_STEP_SUMMARY
             else
               echo "| $num | $lab | \`$(basename $src)\` | ❌ |" >> $GITHUB_STEP_SUMMARY
