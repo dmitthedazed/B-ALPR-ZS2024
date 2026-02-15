@@ -1,6 +1,6 @@
 # 🎓 Algoritmizácia a programovanie (B-ALPR)
 
-[![Build & Verify Solutions]([https://github.com/USERNAME/B-ALPR-ZS2024/actions/workflows/build.yml/badge.svg)](https://github.com/USERNAME/B-ALPR-ZS2024/actions/workflows/build.yml](https://github.com/dmitthedazed/B-ALPR-ZS2024/actions))
+[![Build & Verify Solutions]([https://github.com/dmitthedazed/B-ALPR-ZS2024/actions/workflows/build.yml/badge.svg)](https://github.com/dmitthedazed/B-ALPR-ZS2024/actions/workflows/build.yml](https://github.com/dmitthedazed/B-ALPR-ZS2024/actions))
 
 > **Zimný semester 2024/2025** · FEI STU Bratislava  
 > **Prednášajúci:** Mgr. Ján Grman, PhD.  
