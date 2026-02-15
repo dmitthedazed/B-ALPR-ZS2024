@@ -186,7 +186,7 @@ Kruh s polomerom 1.00: obvod = 6.28, obsah = 3.14
 
 ## 💡 Riešenie
 
-Kompletné riešenie nájdete v súbore [solution.c](solution.c).
+Kompletné riešenie nájdete v súbore [riesenie-01.c](riesenie-01.c).
 
 ---
 

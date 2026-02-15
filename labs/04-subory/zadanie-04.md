@@ -225,7 +225,7 @@ Teda máme skoro trojuholník, ale mali sme vytlačiť len 5 riadkov.
 
 ## 💡 Riešenie
 
-Kompletné riešenie nájdete v súbore [solution.c](solution.c).
+Kompletné riešenie nájdete v súbore [riesenie-04.c](riesenie-04.c).
 
 ---
 

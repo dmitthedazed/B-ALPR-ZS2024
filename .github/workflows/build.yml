@@ -1,0 +1,89 @@
+name: Build & Verify Solutions
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'labs/**/*.c'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'labs/**/*.c'
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Compile C Solutions
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install GCC
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc
+
+      - name: Compile all solutions
+        run: |
+          echo "========================================="
+          echo "  Compiling all lab solutions (ANSI C)"
+          echo "========================================="
+          
+          PASS=0
+          FAIL=0
+          TOTAL=0
+          FAILED_FILES=""
+
+          for src in labs/*/riesenie-*.c; do
+            TOTAL=$((TOTAL + 1))
+            name=$(basename "$src" .c)
+            dir=$(dirname "$src")
+            out="$dir/$name"
+
+            printf "%-45s" "  Compiling $src..."
+
+            if gcc -ansi -pedantic -Wall -Wextra -o "$out" "$src" -lm 2>/tmp/gcc_err.txt; then
+              echo "✅ OK"
+              PASS=$((PASS + 1))
+              rm -f "$out"
+            else
+              echo "❌ FAIL"
+              cat /tmp/gcc_err.txt
+              FAIL=$((FAIL + 1))
+              FAILED_FILES="$FAILED_FILES\n  - $src"
+            fi
+          done
+
+          echo ""
+          echo "========================================="
+          echo "  Results: $PASS/$TOTAL passed"
+          echo "========================================="
+
+          if [ "$FAIL" -gt 0 ]; then
+            echo ""
+            echo "❌ Failed files:$FAILED_FILES"
+            exit 1
+          fi
+
+          echo "✅ All solutions compile successfully!"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## 🔨 Build Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| # | Cvičenie | Súbor | Stav |" >> $GITHUB_STEP_SUMMARY
+          echo "|:-:|----------|-------|:----:|" >> $GITHUB_STEP_SUMMARY
+
+          for src in labs/*/riesenie-*.c; do
+            num=$(basename "$src" .c | sed 's/riesenie-//')
+            lab=$(basename $(dirname "$src"))
+            
+            if gcc -ansi -pedantic -Wall -Wextra -o /dev/null "$src" -lm 2>/dev/null; then
+              echo "| $num | $lab | \`$(basename $src)\` | ✅ |" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "| $num | $lab | \`$(basename $src)\` | ❌ |" >> $GITHUB_STEP_SUMMARY
+            fi
+          done

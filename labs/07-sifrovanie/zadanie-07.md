@@ -258,7 +258,7 @@ SR
 
 ## 💡 Riešenie
 
-Kompletné riešenie nájdete v súbore [solution.c](solution.c).
+Kompletné riešenie nájdete v súbore [riesenie-07.c](riesenie-07.c).
 
 ---
 
