@@ -43,11 +43,8 @@
 ## Štruktúry
 
 <details>
-<summary>🖼️ Titulný obrázok – Štruktúry</summary>
 
-![Štruktúry](images/img-002.png)
 
-</details>
 
 ### Čo je to štruktúra?
 
@@ -132,15 +129,8 @@ MIERY pavol, jan, karol;
 > **Odporúčanie:** Pomenovať typ aj štruktúru rovnako, odlíšiť ich len veľkosťou písma (napr. `miery` / `MIERY`).
 
 <details>
-<summary>🖼️ Prehľad spôsobov definície štruktúr (snímky zo slajdov)</summary>
 
-![Spôsob 1](images/img-004.png)
-![Spôsob 2](images/img-005.png)
-![Spôsob 3](images/img-006.png)
-![Spôsob 4](images/img-007.png)
-![Spôsob 5](images/img-008.png)
 
-</details>
 
 ---
 
@@ -194,11 +184,8 @@ void main()
 ### Štruktúry a ukazovatele
 
 <details>
-<summary>🖼️ Diagram – Štruktúry a ukazovatele</summary>
 
-![Štruktúry a ukazovatele](images/img-011.png)
 
-</details>
 
 Ukazovatele na štruktúry sa používajú pri:
 - **štruktúrach v dynamickej pamäti**
@@ -332,11 +319,8 @@ Pravidlá ukladania do pamäte:
 > Na zistenie skutočnej veľkosti štruktúry použite: `sizeof(p);`
 
 <details>
-<summary>🖼️ Diagram – Zarovnanie položiek v pamäti</summary>
 
-![Zarovnanie v pamäti](images/img-026.png)
 
-</details>
 
 ---
 
@@ -509,12 +493,8 @@ Web stránka má odkaz na inú web stránku (ukazovateľ na rovnaký typ).
 Každý človek si pamätá, kto je pred ním (ukazovateľ na ten istý typ).
 
 <details>
-<summary>🖼️ Diagramy – Hypertext a čakáreň</summary>
 
-![Hypertext](images/img-015.png)
-![Čakáreň](images/img-016.png)
 
-</details>
 
 #### Správna definícia:
 
@@ -553,12 +533,8 @@ typedef struct clovek {
 ```
 
 <details>
-<summary>🖼️ Diagram – Spájaný zoznam</summary>
 
-![Spájaný zoznam](images/img-018.png)
-![Budovanie zoznamu](images/img-019.png)
 
-</details>
 
 #### Vytváranie zoznamu:
 
@@ -645,13 +621,8 @@ void main()
 ```
 
 <details>
-<summary>🖼️ Diagram – Budovanie a mazanie v zozname</summary>
 
-![Budovanie zoznamu](images/img-020.png)
-![Fáza 1](images/img-021.png)
-![Fáza 2](images/img-022.png)
 
-</details>
 
 ---
 
@@ -662,15 +633,8 @@ void main()
 Kruhový zoznam je spájaný zoznam, kde **posledný prvok ukazuje späť na prvý**. Príklad: simulácia hry „Kolo, kolo mlynské" – záznamy o deťoch, ktoré ešte nevypadli.
 
 <details>
-<summary>🖼️ Diagramy – Kruhový zoznam (fázy budovania)</summary>
 
-![Kruhový zoznam – princíp](images/img-034.png)
-![Prázdny zoznam](images/img-035.png)
-![Jeden prvok](images/img-036.png)
-![Dva prvky](images/img-037.png)
-![Tri prvky](images/img-038.png)
 
-</details>
 
 **Fázy budovania:**
 

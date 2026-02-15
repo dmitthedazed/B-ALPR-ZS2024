@@ -33,11 +33,8 @@
 ## Premenné a smerníky
 
 <details>
-<summary>🖼️ Titulný obrázok – Smerníky</summary>
 
-![Smerníky – úvod](images/img-000.png)
 
-</details>
 
 ### Premenná v pamäti
 
@@ -57,11 +54,8 @@ int main() {
 | premenná `i` | 15 | 4 (predtým `?`) |
 
 <details>
-<summary>🖼️ Premenná v pamäti</summary>
 
-![Premenná v pamäti](images/img-001.png)
 
-</details>
 
 ---
 
@@ -93,11 +87,8 @@ int main() {
 > **Poznámka:** `p` ukazuje na rovnakú pamäť ako prezentuje `i`. Operátor `*p` dereferencuje pointer – získa hodnotu na adrese, kam `p` ukazuje.
 
 <details>
-<summary>🖼️ Premenná a pointer</summary>
 
-![Premenná a pointer](images/img-002.png)
 
-</details>
 
 ---
 
@@ -129,11 +120,8 @@ int main() {
 > Funkcia dostane kópie – zmena `a` alebo `b` **neovplyvní** `x` a `y`.
 
 <details>
-<summary>🖼️ Volanie hodnotou</summary>
 
-![Volanie hodnotou](images/img-003.png)
 
-</details>
 
 ---
 
@@ -160,11 +148,8 @@ int main() {
 | `b` vo funkcii | 57 | 34 (adresa `y`) |
 
 <details>
-<summary>🖼️ Volanie odkazom</summary>
 
-![Volanie odkazom](images/img-004.png)
 
-</details>
 
 ---
 
@@ -187,11 +172,8 @@ int main() {
 - Číslo 4 sa priradí tam, kam ukazuje `c` (t.j. do premennej `z`)
 
 <details>
-<summary>🖼️ Výstupný parameter (všetky odkazom)</summary>
 
-![Výstupný parameter](images/img-005.png)
 
-</details>
 
 ---
 
@@ -214,11 +196,8 @@ int main() {
 - `c` je adresa premennej `z` – výsledok sa priradí kam ukazuje `c`
 
 <details>
-<summary>🖼️ Kombinácia hodnota + odkaz</summary>
 
-![Kombinácia](images/img-006.png)
 
-</details>
 
 ---
 
@@ -251,22 +230,16 @@ int main() {
 ```
 
 <details>
-<summary>🖼️ Príklad – kruh</summary>
 
-![Príklad – kruh](images/img-007.png)
 
-</details>
 
 ---
 
 ## Jednorozmerné polia a smerníky
 
 <details>
-<summary>🖼️ Titulný obrázok – Polia a smerníky</summary>
 
-![Polia a smerníky](images/img-008.png)
 
-</details>
 
 ### Základy práce s poliami
 
@@ -288,11 +261,8 @@ TYP x[N];   // statická definícia poľa
 > Príklad: `int x[3];` — pole 3 prvkov typu `int`.
 
 <details>
-<summary>🖼️ Základy polí</summary>
 
-![Základy polí](images/img-009.png)
 
-</details>
 
 ---
 
@@ -313,11 +283,8 @@ for (i = 0; i < N; i++)
 ```
 
 <details>
-<summary>🖼️ Prístup k prvkom poľa</summary>
 
-![Prístup k prvkom poľa](images/img-010.png)
 
-</details>
 
 ---
 
@@ -378,11 +345,8 @@ int maximum(int *pole, int n) {
 ## Spájané zoznamy
 
 <details>
-<summary>🖼️ Titulný obrázok – Spájané zoznamy</summary>
 
-![Spájané zoznamy](images/img-016.png)
 
-</details>
 
 ### Záznamy v pamäti
 
@@ -399,11 +363,8 @@ Príklad rozmiestnenia v pamäti:
 - Každý prvok ukazuje na ďalší cez smerník `dalsi`
 
 <details>
-<summary>🖼️ Záznamy v pamäti</summary>
 
-![Záznamy v pamäti](images/img-017.png)
 
-</details>
 
 ---
 
@@ -428,12 +389,8 @@ CLOVEK *vratPrveMeno(CLOVEK *zac, char meno[]) {
 > **Poznámka:** Vo funkcii pracujeme s **lokálnou kópiou** ukazovateľa `zac`, takže pôvodný ukazovateľ v hlavnom programe sa nezmení.
 
 <details>
-<summary>🖼️ Hľadanie prvého záznamu</summary>
 
-![Hľadanie prvého záznamu](images/img-018.png)
-![Hľadanie – priebeh](images/img-019.png)
 
-</details>
 
 ---
 
@@ -458,12 +415,8 @@ CLOVEK *vratPosledneMeno(CLOVEK *zac, char meno[]) {
 - Na rozdiel od `vratPrveMeno()` sa pri nájdení nevraciame hneď, ale pokračujeme ďalej
 
 <details>
-<summary>🖼️ Hľadanie posledného záznamu</summary>
 
-![Hľadanie posledného záznamu](images/img-020.png)
-![Priebeh hľadania](images/img-021.png)
 
-</details>
 
 ---
 
@@ -522,13 +475,8 @@ return vloz;
 - `akt->dalsi` nastavíme na `vloz`
 
 <details>
-<summary>🖼️ Vkladanie na pozíciu – vizualizácia</summary>
 
-![Vkladanie do prázdneho / na začiatok](images/img-025.png)
-![Vkladanie na začiatok](images/img-027.png)
-![Vkladanie do stredu](images/img-029.png)
 
-</details>
 
 ---
 

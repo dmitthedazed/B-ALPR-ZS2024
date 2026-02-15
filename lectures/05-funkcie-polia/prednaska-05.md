@@ -56,7 +56,6 @@
 
 ## Funkcie a práca s pamäťou
 
-<details><summary>📊 Slide</summary><img src="images/img-002.png"></details>
 
 ### Globálne a lokálne premenné
 
@@ -126,7 +125,6 @@ int druha()
 
 ### Alokácia pamäte
 
-<details><summary>📊 Slide</summary><img src="images/img-008.png"></details>
 
 Každá premenná musí mať v čase svojej existencie pridelený pamäťový priestor. Akcia na vyhradenie pamäťového priestoru sa nazýva **alokácia**, ktorá môže byť:
 
@@ -162,7 +160,6 @@ Každá premenná musí mať v čase svojej existencie pridelený pamäťový pr
 
 ## Funkcie
 
-<details><summary>📊 Slide</summary><img src="images/img-013.png"></details>
 
 - Jazyk C je založený na funkciách
   - Kratšie programy majú jednu funkciu `main()`
@@ -236,7 +233,6 @@ vypis_int(a + b);
 
 ### Parametre funkcií – volanie hodnotou
 
-<details><summary>📊 Slide – diagram zásobníka</summary><img src="images/img-019.png"></details>
 
 - **Predávanie parametrov hodnotou** — parametre sú vo funkcii len čítané
 - Každá zmena parametra je dočasná, je len v rámci funkcie a po jej ukončení sa stratí
@@ -257,7 +253,6 @@ vypis_int(a + b);
 
 ### Parametre funkcií – volanie odkazom
 
-<details><summary>📊 Slide – diagram zásobníka</summary><img src="images/img-022.png"></details>
 
 - Predávanie parametrov odkazom **neexistuje** v C
 - Volanie odkazom by umožnilo meniť parametre v rámci funkcie
@@ -314,7 +309,6 @@ vymen(&i, &j);
 
 ### Vzájomné volanie funkcií
 
-<details><summary>📊 Slide</summary><img src="images/img-027.png"></details>
 
 Funkcie sa môžu navzájom volať — v takom prípade je potrebná **dopredná deklarácia** (prototyp) funkcie, ktorá je definovaná neskôr.
 
@@ -516,11 +510,9 @@ void vypis(FILE *fr) {
 
 ## Jednorozmerné polia
 
-<details><summary>📊 Slide</summary><img src="images/img-036.png"></details>
 
 ### Základy práce s poliami
 
-<details><summary>📊 Slide – štruktúra poľa</summary><img src="images/img-037.png"></details>
 
 Pole je štruktúra zložená z niekoľkých prvkov rovnakého typu (blok prvkov).
 
@@ -607,7 +599,6 @@ for (i = 0; i < (sizeof(pole) / sizeof(int)); i++) {
 
 ### Pole ako parameter funkcie
 
-<details><summary>📊 Slide</summary><img src="images/img-044.png"></details>
 
 Identifikátor nasledovaný zátvorkami: `int pole[]`
 
@@ -1143,7 +1134,6 @@ void reverse(char data[], int size) {
 
 ### Eratostenovo sito
 
-<details><summary>📊 Slide – vizualizácia algoritmu</summary><img src="images/img-073.png"></details>
 
 Algoritmus na nájdenie prvočísel v poli — vyškrtáva všetky násobky prvočísel, počnúc 2 (vyškrtnutie = prepísanie čísla na 0).
 
