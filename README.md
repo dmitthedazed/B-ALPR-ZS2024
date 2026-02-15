@@ -1,5 +1,7 @@
 # 🎓 Algoritmizácia a programovanie (B-ALPR)
 
+[![Build & Verify Solutions](https://github.com/USERNAME/B-ALPR-ZS2024/actions/workflows/build.yml/badge.svg)](https://github.com/USERNAME/B-ALPR-ZS2024/actions/workflows/build.yml)
+
 > **Zimný semester 2024/2025** · FEI STU Bratislava  
 > **Prednášajúci:** Mgr. Ján Grman, PhD.  
 > **Jazyk:** C (ANSI C)
@@ -44,17 +46,17 @@ Každé cvičenie obsahuje zadanie a kompletné riešenie v jazyku C.
 
 | # | Téma | Súvisiaca prednáška | Riešenie |
 |:-:|------|:-------------------:|:--------:|
-| 1 | [Úvod — prvý program v C](labs/01-uvod/zadanie-01.md) | [P1](lectures/01-uvod/prednaska-01.md) | [solution.c](labs/01-uvod/solution.c) |
-| 2 | [Podmienky a vetvenie](labs/02-podmienky/zadanie-02.md) | [P2](lectures/02-konstanty-operatory/prednaska-02.md) | [solution.c](labs/02-podmienky/solution.c) |
-| 3 | [Cykly a štatistika](labs/03-cykly-statistika/zadanie-03.md) | [P3](lectures/03-cykly/prednaska-03.md) | [solution.c](labs/03-cykly-statistika/solution.c) |
-| 4 | [Práca so súbormi](labs/04-subory/zadanie-04.md) | [P4](lectures/04-subory/prednaska-04.md) | [solution.c](labs/04-subory/solution.c) |
-| 5 | [Súbory a polia](labs/05-subory-polia/zadanie-05.md) | [P5](lectures/05-funkcie-polia/prednaska-05.md) | [solution.c](labs/05-subory-polia/solution.c) |
-| 6 | [Reťazce](labs/06-retazce/zadanie-06.md) | [P6](lectures/06-retazce-ukazovatele/prednaska-06.md) | [solution.c](labs/06-retazce/solution.c) |
-| 7 | [Substitučná šifra](labs/07-sifrovanie/zadanie-07.md) | [P7](lectures/07-ukazovatele-vyhladavanie/prednaska-07.md) | [solution.c](labs/07-sifrovanie/solution.c) |
-| 8 | [Dvojrozmerné polia](labs/08-2d-polia/zadanie-08.md) | [P8](lectures/08-dynamicka-pamat/prednaska-08.md) | [solution.c](labs/08-2d-polia/solution.c) |
-| 9 | [Dynamické polia](labs/09-dynamicke-polia/zadanie-09.md) | [P8](lectures/08-dynamicka-pamat/prednaska-08.md) | [solution.c](labs/09-dynamicke-polia/solution.c) |
-| 10 | [Štruktúry](labs/10-struktury/zadanie-10.md) | [P9](lectures/09-struktury-zoznamy/prednaska-09.md) | [solution.c](labs/10-struktury/solution.c) |
-| 11 | [Spájané zoznamy](labs/11-spajane-zoznamy/zadanie-11.md) | [P9](lectures/09-struktury-zoznamy/prednaska-09.md) | [solution.c](labs/11-spajane-zoznamy/solution.c) |
+| 1 | [Úvod — prvý program v C](labs/01-uvod/zadanie-01.md) | [P1](lectures/01-uvod/prednaska-01.md) | [riesenie-01.c](labs/01-uvod/riesenie-01.c) |
+| 2 | [Podmienky a vetvenie](labs/02-podmienky/zadanie-02.md) | [P2](lectures/02-konstanty-operatory/prednaska-02.md) | [riesenie-02.c](labs/02-podmienky/riesenie-02.c) |
+| 3 | [Cykly a štatistika](labs/03-cykly-statistika/zadanie-03.md) | [P3](lectures/03-cykly/prednaska-03.md) | [riesenie-03.c](labs/03-cykly-statistika/riesenie-03.c) |
+| 4 | [Práca so súbormi](labs/04-subory/zadanie-04.md) | [P4](lectures/04-subory/prednaska-04.md) | [riesenie-04.c](labs/04-subory/riesenie-04.c) |
+| 5 | [Súbory a polia](labs/05-subory-polia/zadanie-05.md) | [P5](lectures/05-funkcie-polia/prednaska-05.md) | [riesenie-05.c](labs/05-subory-polia/riesenie-05.c) |
+| 6 | [Reťazce](labs/06-retazce/zadanie-06.md) | [P6](lectures/06-retazce-ukazovatele/prednaska-06.md) | [riesenie-06.c](labs/06-retazce/riesenie-06.c) |
+| 7 | [Substitučná šifra](labs/07-sifrovanie/zadanie-07.md) | [P7](lectures/07-ukazovatele-vyhladavanie/prednaska-07.md) | [riesenie-07.c](labs/07-sifrovanie/riesenie-07.c) |
+| 8 | [Dvojrozmerné polia](labs/08-2d-polia/zadanie-08.md) | [P8](lectures/08-dynamicka-pamat/prednaska-08.md) | [riesenie-08.c](labs/08-2d-polia/riesenie-08.c) |
+| 9 | [Dynamické polia](labs/09-dynamicke-polia/zadanie-09.md) | [P8](lectures/08-dynamicka-pamat/prednaska-08.md) | [riesenie-09.c](labs/09-dynamicke-polia/riesenie-09.c) |
+| 10 | [Štruktúry](labs/10-struktury/zadanie-10.md) | [P9](lectures/09-struktury-zoznamy/prednaska-09.md) | [riesenie-10.c](labs/10-struktury/riesenie-10.c) |
+| 11 | [Spájané zoznamy](labs/11-spajane-zoznamy/zadanie-11.md) | [P9](lectures/09-struktury-zoznamy/prednaska-09.md) | [riesenie-11.c](labs/11-spajane-zoznamy/riesenie-11.c) |
 
 ---
 

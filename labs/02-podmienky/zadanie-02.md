@@ -154,7 +154,7 @@ príklady zo zadaní, nemáte žiadny problém na písomkách a skúške.
 
 ## 💡 Riešenie
 
-Kompletné riešenie nájdete v súbore [solution.c](solution.c).
+Kompletné riešenie nájdete v súbore [riesenie-02.c](riesenie-02.c).
 
 ---
 

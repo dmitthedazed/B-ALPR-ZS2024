@@ -85,7 +85,7 @@ else {
 
 ## 💡 Riešenie
 
-Kompletné riešenie nájdete v súbore [solution.c](solution.c).
+Kompletné riešenie nájdete v súbore [riesenie-08.c](riesenie-08.c).
 
 ---
 

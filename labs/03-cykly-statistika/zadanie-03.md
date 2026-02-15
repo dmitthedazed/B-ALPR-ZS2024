@@ -128,7 +128,7 @@ obrázku pre N=7:
 
 ## 💡 Riešenie
 
-Kompletné riešenie nájdete v súbore [solution.c](solution.c).
+Kompletné riešenie nájdete v súbore [riesenie-03.c](riesenie-03.c).
 
 ---
 

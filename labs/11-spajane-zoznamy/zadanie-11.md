@@ -115,7 +115,7 @@ return 0;
 
 ## 💡 Riešenie
 
-Kompletné riešenie nájdete v súbore [solution.c](solution.c).
+Kompletné riešenie nájdete v súbore [riesenie-11.c](riesenie-11.c).
 
 ---
 

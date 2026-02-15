@@ -291,7 +291,7 @@ poradí ako boli v súbore, ale bez enterov.
 
 ## 💡 Riešenie
 
-Kompletné riešenie nájdete v súbore [solution.c](solution.c).
+Kompletné riešenie nájdete v súbore [riesenie-05.c](riesenie-05.c).
 
 ---
 
