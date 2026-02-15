@@ -174,9 +174,6 @@ Vo všetkých typoch cyklov je možné použiť príkazy na zmenu behu cyklu:
 - **`break`** – ukončuje najvnútornejšiu slučku a opúšťa cyklus
 - **`continue`** – skáče na koniec najvnútornejšej slučky a vynúti ďalšiu iteráciu
 
-<details><summary>📊 Slide – Prehľad iteračných príkazov</summary>
-<img src="images/img-009.png">
-</details>
 
 ---
 
@@ -191,9 +188,6 @@ while (podmienka)
 
 > **Dôležité:** Používame ho, keď ukončovacia podmienka závisí na nejakom príkaze v tele cyklu. Ak by nezávisela, podmienka by bola splnená stále a cyklus by bol nekonečný.
 
-<details><summary>📊 Slide – Cyklus while</summary>
-<img src="images/img-010.png">
-</details>
 
 ### Príklady s while
 
@@ -260,9 +254,6 @@ do {
 } while (podmienka);
 ```
 
-<details><summary>📊 Slide – Cyklus do-while</summary>
-<img src="images/img-014.png">
-</details>
 
 **Príklad:** Program číta znaky z klávesnice, opisuje ich na obrazovku, medzier si nevšíma a skončí po prečítaní `*`, na konci vypíše `*`.
 
@@ -294,9 +285,6 @@ for (vyraz_start; vyraz_stop; vyraz_iter)
 - **`vyraz_stop`** – podmienka ukončenia (keď nie je splnená, cyklus končí)
 - **`vyraz_iter`** – iteračný výraz (vykoná sa po každom prechode)
 
-<details><summary>📊 Slide – Cyklus for</summary>
-<img src="images/img-016.png">
-</details>
 
 **Príklad:** Napíš 100× „I will not cut corners":
 
@@ -391,9 +379,6 @@ for (i = 3, sucin = 1; i <= 9; i += 2)
 - Príkaz `break` – len v najnutnejších prípadoch, najlepšie maximálne na jednom mieste
 - Cykly `while` a `for` sú prehľadnejšie ako `do-while`, preto ich **uprednostňujte**
 
-<details><summary>📊 Slide – Odporúčania</summary>
-<img src="images/img-022.png">
-</details>
 
 ---
 
@@ -608,9 +593,6 @@ int main() {
 }
 ```
 
-<details><summary>📊 Slide – Kríž z hviezdičiek</summary>
-<img src="images/img-029.png">
-</details>
 
 ---
 
@@ -768,9 +750,6 @@ switch (vyraz) {
 - V každej vetve môže byť viac príkazov – nie je nutné ich uzatvárať do zátvoriek `{}`
 - Vetva `default` sa vykonáva, keď žiadna iná vetva nie je splnená
 
-<details><summary>📊 Slide – Príkaz switch</summary>
-<img src="images/img-035.png">
-</details>
 
 ### Viaceré hodnoty v jednej vetve
 
@@ -941,9 +920,6 @@ void vypis(int k) {
 | `while (x == 1) do` | Za `while` nie je `do` |
 | `for (i = 0; i < 10; i++);  x += i;` | Bodkočiarka za `for` – telo cyklu je prázdne, `x += i` sa vykoná len raz |
 
-<details><summary>📊 Slide – Časté chyby</summary>
-<img src="images/img-046.png">
-</details>
 
 ---
 
@@ -1056,9 +1032,6 @@ int main() {
 *****
 ```
 
-<details><summary>📊 Slide – Trojuholník</summary>
-<img src="images/img-051.png">
-</details>
 
 ---
 
@@ -1108,9 +1081,6 @@ Výsledok: každý znak sa zdvojí.
 
 > **Úloha:** Nakreslite trojuholníky vedľa seba (4×) aj pod seba (2×).
 
-<details><summary>📊 Slide – Variácie trojuholníka</summary>
-<img src="images/img-055.png">
-</details>
 
 ---
 
@@ -1128,9 +1098,6 @@ Výsledok: každý znak sa zdvojí.
 
 ---
 
-<details><summary>📊 Slide – Zhrnutie</summary>
-<img src="images/img-048.png">
-</details>
 
 ---
 

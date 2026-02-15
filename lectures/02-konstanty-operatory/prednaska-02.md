@@ -71,7 +71,6 @@ int main()
 }
 ```
 
-<details><summary>📊 Slide</summary><img src="images/img-002.png"></details>
 
 ### Reálne konštanty
 
@@ -149,7 +148,6 @@ Niektoré escape sekvencie majú okrem numerického kódu aj znakový ekvivalent
 | `\'` | `0x2C` | Apostrof (single quote) |
 | `\0` | `0x00` | Nulový znak (null character) |
 
-<details><summary>📊 Slide</summary><img src="images/img-008.png"></details>
 
 ### Reťazcové konštanty
 
@@ -193,7 +191,6 @@ j = i++;       // j bude 7, i bude 8
 k = --j + 2;   // k bude 8, j bude 6, i bude 8
 ```
 
-<details><summary>📊 Slide</summary><img src="images/img-011.png"></details>
 
 ### Operátory priradenia
 
@@ -304,7 +301,6 @@ Za znakom `%` sa uvádza špecifikácia formátu:
 
 > **Tip:** Ak načítavame len jeden znak, `c = getchar();` je lepšie ako `scanf("%c", &c);`.
 
-<details><summary>📊 Slide</summary><img src="images/img-017.png"></details>
 
 ### Príklady formátovaného výstupu
 
@@ -367,7 +363,6 @@ int x = 10, y = 5;
 
 > **Pozor:** `=` je priradenie, `==` je porovnanie!
 
-<details><summary>📊 Slide</summary><img src="images/img-025.png"></details>
 
 ### Priradenie vs. porovnanie
 
@@ -430,7 +425,6 @@ if (delitel && delenec / delitel) {
 
 > **Pozor:** Nezamieňajte `&&` za `&` a `||` za `|` — `&` a `|` sú **bitové** operácie!
 
-<details><summary>📊 Slide</summary><img src="images/img-029.png"></details>
 
 #### Príklady priorít
 
@@ -503,7 +497,6 @@ int main()
 }
 ```
 
-<details><summary>📊 Slide</summary><img src="images/img-034.png"></details>
 
 ---
 
@@ -561,7 +554,6 @@ int main()
 
 > **Pozor:** Ak neuzátvorkujeme `c = getchar()`, výraz sa vyhodnotí inak — `getchar()` sa porovná s `'A'`, výsledok (0 alebo 1) sa priradí do `c`, a potom sa `c` porovnáva s `'Z'`.
 
-<details><summary>📊 Slide</summary><img src="images/img-040.png"></details>
 
 ### Rozšírený príkaz if-else
 
@@ -594,7 +586,6 @@ else
     j = 1;    // ak i > 3: j = 5, i = 7; inak: j = 1
 ```
 
-<details><summary>📊 Slide</summary><img src="images/img-044.png"></details>
 
 ---
 
@@ -653,7 +644,6 @@ printf
 ("Najvacsie cislo je %lf \n", max);return 0;}
 ```
 
-<details><summary>📊 Slide</summary><img src="images/img-051.png"></details>
 
 ---
 
@@ -820,7 +810,6 @@ To isté pomocou ternárneho operátora:
 printf("%s.\n", (i % 2) ? "Neparne" : "Parne");
 ```
 
-<details><summary>📊 Slide</summary><img src="images/img-047.png"></details>
 
 ### Príklad 8: Jednoduchá kalkulačka
 

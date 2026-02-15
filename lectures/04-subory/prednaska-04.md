@@ -35,7 +35,6 @@
 
 ## Opakovanie – riadiace štruktúry v príkladoch
 
-<details><summary>📊 Slide</summary><img src="images/img-002.png"></details>
 
 ### Príklad: Suma čísel
 
@@ -156,7 +155,6 @@ int main() {
 
 ## Vstup a výstup z textového súboru
 
-<details><summary>📊 Slide</summary><img src="images/img-007.png"></details>
 
 ### Čo je súbor
 
@@ -216,7 +214,6 @@ Všetky funkcie sú zo štandardnej knižnice `stdio.h`. Premenná `f` je typu `
 | `fscanf(f, "fmt", ...)` | `scanf("fmt", ...)` | Formátované čítanie |
 | `fprintf(f, "fmt", ...)` | `printf("fmt", ...)` | Formátovaný zápis |
 
-<details><summary>📊 Slide</summary><img src="images/img-011.png"></details>
 
 ### Zatvorenie súboru – fclose()
 
@@ -511,7 +508,6 @@ int main() {
 }
 ```
 
-<details><summary>📊 Slide – komentovaný kód</summary><img src="images/img-028.png"></details>
 
 ### Štandardný vstup a výstup (stdin, stdout)
 
@@ -577,7 +573,6 @@ int main() {
 }
 ```
 
-<details><summary>📊 Slide – schéma programu</summary><img src="images/img-031.png"></details>
 
 ---
 
@@ -657,7 +652,6 @@ FILE *fopen(const char *meno, const char *rezim);
 | Zápis na ľubovoľné miesto | | ✔ | | ✔ | ✔ | |
 | Zápis iba na koniec | | | ✔ | | | ✔ |
 
-<details><summary>📊 Slide – tabuľka režimov</summary><img src="images/img-040.png"></details>
 
 > **Poznámky:**
 > - Niektoré implementácie umožňujú explicitne určiť textový režim: `"rt"`, `"wt"`, `"at"`.
@@ -719,7 +713,6 @@ Zistenie pozície ukazovateľa čítania/zápisu v otvorenom súbore, relatívne
 
 **Návratová hodnota:** Aktuálna pozícia alebo `-1` v prípade neúspechu.
 
-<details><summary>📊 Slide – fseek/ftell</summary><img src="images/img-042.png"></details>
 
 ---
 

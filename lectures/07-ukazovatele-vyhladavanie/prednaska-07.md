@@ -48,10 +48,7 @@
 ## 1. Ukazovatele – pokračovanie
 
 <details>
-<summary>🖼️ Titulná snímka prednášky</summary>
 
-![Titulná snímka](images/img-000.png)
-</details>
 
 ### 1.1 Referenčný operátor `&`
 
@@ -67,10 +64,7 @@ p = &i;
 > Príkazom `p = &i;` sme adresu premennej `i` uložili do premennej `p` – teda ukazovateľ `p` ukazuje na premennú `i`.
 
 <details>
-<summary>🖼️ Schéma referenčného operátora</summary>
 
-![Referenčný operátor](images/img-002.png)
-</details>
 
 ### 1.2 Dereferenčný operátor `*`
 
@@ -81,10 +75,7 @@ p = &i;
 ```
 
 <details>
-<summary>🖼️ Schéma dereferenčného operátora</summary>
 
-![Dereferenčný operátor](images/img-003.png)
-</details>
 
 ### 1.3 Nulový ukazovateľ `NULL`
 
@@ -104,7 +95,6 @@ if (p_i == NULL)
     ...
 ```
 
-![NULL ukazovateľ](images/img-004.png)
 
 ### 1.4 Prečo je potrebné určovať typ smerníka
 
@@ -113,7 +103,6 @@ if (p_i == NULL)
 
 > Ak nasmerujeme smerník na určitú adresu, vieme, že na tejto adrese **začína** a ďalej spojito pokračuje cez toľko bajtov, koľko je potrebných na uloženie príslušného typu premennej.
 
-![Typ smerníka](images/img-005.png)
 
 ### 1.5 Ukazovateľ na `void`
 
@@ -125,7 +114,6 @@ void *p;
 
 - Môže ukazovať na **ľubovoľný typ**.
 
-![Pointer na void](images/img-006.png)
 
 ### 1.6 Konverzia ukazovateľov
 
@@ -139,7 +127,6 @@ p_c = p_i;            /* nevhodné */
 p_c = (char *)p_i;    /* vhodnejšie */
 ```
 
-![Konverzia ukazovateľov](images/img-007.png)
 
 ### 1.7 Príklad: ukazovateľ na `void`
 
@@ -174,7 +161,6 @@ int main() {
 }
 ```
 
-![Príklad void pointer](images/img-009.png)
 
 ---
 
@@ -204,7 +190,6 @@ i = sizeof(p_i);   /* počet bajtov na uloženie ukazovateľa na int – nevyuž
 i = sizeof(*p_i);  /* počet bajtov na uloženie typu int – využíva sa často */
 ```
 
-![sizeof operátor](images/img-011.png)
 
 ### 2.2 Súčet ukazovateľa a celého čísla
 
@@ -218,10 +203,7 @@ p2 = p1 + n;
 ```
 
 <details>
-<summary>🖼️ Schéma súčtu ukazovateľa a čísla</summary>
 
-![Súčet ukazovateľa a čísla](images/img-012.png)
-</details>
 
 **Príklady** (predpokladajme `sizeof(char) == 1`, `sizeof(int) == 2`, `sizeof(float) == 4`):
 
@@ -244,7 +226,6 @@ p1 = p2 - n;
 /* p1 = 36 - 2 * 3 = 30 */
 ```
 
-![Rozdiel ukazovateľa a čísla](images/img-014.png)
 
 ### 2.4 Porovnávanie ukazovateľov
 
@@ -274,10 +255,7 @@ while (p2 < p1 + N && *p2 != '\0')
 > Vypisuje znaky, pokiaľ nepresiahne dĺžku pridelenej pamäte premennej `str` **a** pokým nedosiahne koniec zapísaného slova.
 
 <details>
-<summary>🖼️ Schéma výpisu reťazca cez ukazovatele</summary>
 
-![Výpis reťazca](images/img-016.png)
-</details>
 
 #### Porovnávanie ukazovateľov s konštantou `NULL`
 
@@ -318,7 +296,6 @@ for (p2 = p1; p2 < p1 + N && *p2 != '?'; p2++)
 printf("%d", (p2 < p1 + N) ? (p2 - p1 + 1) : -1);
 ```
 
-![Rozdiel ukazovateľov](images/img-018.png)
 
 ### 2.6 Zhrnutie aritmetických operácií
 
@@ -328,17 +305,13 @@ Aritmetické operácie s ukazovateľmi majú zmysel len vtedy, keď:
 
 > OS nezaručí, že neskôr alokovaný blok bude na vyššej adrese.
 
-![Zhrnutie ukazovateľovej aritmetiky](images/img-019.png)
 
 ---
 
 ## 3. Algoritmy vyhľadávania
 
 <details>
-<summary>🖼️ Ilustrácia algoritmy</summary>
 
-![Algoritmy](images/img-020.png)
-</details>
 
 Program načíta do poľa **usporiadanú postupnosť čísel** a hodnotu, ktorú chce v postupnosti (v poli) vyhľadať (nájsť jej index). Použije **sekvenčné** a **binárne** vyhľadávanie.
 
@@ -368,10 +341,7 @@ int sekvencne(int pole[], int n, int x)
 Nájdenie stredu intervalu – ak je hľadaná hodnota menšia ako hodnota stredného prvku → hľadanie v **ľavej polovici**, inak v **pravej polovici**.
 
 <details>
-<summary>🖼️ Vizualizácia binárneho vyhľadávania</summary>
 
-![Binárne vyhľadávanie](images/img-024.png)
-</details>
 
 ```c
 int binarne(int pole[], int n, int x)
@@ -489,10 +459,7 @@ Usporiadanie poľa čísel (od najmenšieho po najväčšie) – rôzne algoritm
 | **QuickSort** | O(n log n) priem. | Rýchle, oplatí sa pre veľké polia, rekurzia |
 
 <details>
-<summary>🖼️ Prehľad algoritmov usporiadania</summary>
 
-![Algoritmy usporiadania](images/img-029.png)
-</details>
 
 ### 5.1 BubbleSort
 
@@ -526,10 +493,7 @@ void bubblesort(int a[], int n)
 > V úseku `0...i` „vybubláme" najväčší prvok nakoniec.
 
 <details>
-<summary>🖼️ Vizualizácia BubbleSort</summary>
 
-![BubbleSort](images/img-031.png)
-</details>
 
 ### 5.2 MaxSort
 
@@ -562,10 +526,7 @@ void maxsort(int a[], int n)
 - Časť poľa je **usporiadaná** a vsunie sa do nej prvok tak, aby pole zostalo usporiadané.
 
 <details>
-<summary>🖼️ Vizualizácia InsertSort</summary>
 
-![InsertSort](images/img-034.png)
-</details>
 
 #### Implementácia
 
@@ -602,10 +563,7 @@ void insertsort(int a[], int n)
 - **Rýchle** – oplatí sa pre veľké polia.
 
 <details>
-<summary>🖼️ Vizualizácia QuickSort</summary>
 
-![QuickSort](images/img-036.png)
-</details>
 
 #### Implementácia
 
@@ -788,7 +746,6 @@ void nacitaj(float p[], int n)
 
 ## 8. Príklady na doma
 
-![Príklady na doma](images/img-046.png)
 
 ### 8.1 MergeSort
 
@@ -796,10 +753,7 @@ void nacitaj(float p[], int n)
 - Opakovanie spájania podzoznamov a vytváranie tak dlhších usporiadaných podzoznamov, až pokým nezostane 1 zoznam, ktorý je **usporiadaný**.
 
 <details>
-<summary>🖼️ Vizualizácia MergeSort</summary>
 
-![MergeSort](images/img-047.png)
-</details>
 
 #### `CopyArray` – prekopírovanie obsahu poľa B do A (od `iMin` po `iMax-1`)
 

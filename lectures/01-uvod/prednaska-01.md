@@ -83,7 +83,6 @@
 
 > **Dôležité:** Využite konzultácie už v prípade prvých problémov! Samostatné riešenie zadaní je podstatou získania vedomostí, ktoré sú jedinou cestou ako uspieť na písomkách.
 
-<details><summary>📊 Slide</summary><img src="images/img-003.png"></details>
 
 ---
 
@@ -102,7 +101,6 @@ Jazyky procedurálneho programovania: **C**, Pascal, Python, C#, Java
 - Program je postupnosť príkazov
 - Príkazy predpisujú vykonanie operácií
 
-<details><summary>📊 Slide</summary><img src="images/img-007.png"></details>
 
 ---
 
@@ -128,7 +126,6 @@ Jazyky procedurálneho programovania: **C**, Pascal, Python, C#, Java
 - **Prvý štandard:** Kernighan a Ritchie – *The C Programming Language*, Bell Laboratories (1978) — „vyrástol" z jazyka B
 - **Dnešný štandard:** ANSI C — 100% prenositeľný (ANSI = American National Standards Institute)
 
-<details><summary>📊 Slide</summary><img src="images/img-013.png"></details>
 
 ### Spôsob spracovania programu
 
@@ -148,7 +145,6 @@ Spracovanie programu prebieha vo fázach:
 | **Linker** | Priradí relatívnemu kódu absolútne adresy, vytvorí spustiteľný súbor (`.EXE`) |
 | **Debugger** | Používa sa na ladenie programu |
 
-<details><summary>📊 Slide</summary><img src="images/img-014.png"></details>
 
 ---
 
@@ -178,7 +174,6 @@ Rozbor programu:
 | `printf("Hello world!")` | Vypíše správu na obrazovku |
 | `return 0` | Funkcia vráti celočíselnú hodnotu 0 |
 
-<details><summary>📊 Slide</summary><img src="images/img-016.png"></details>
 
 ### Zdrojové a hlavičkové súbory
 
@@ -236,7 +231,6 @@ printf("formátovací reťazec", premenné);
 printf("Hello world!\n");
 ```
 
-<details><summary>📊 Slide</summary><img src="images/img-025.png"></details>
 
 ---
 
@@ -313,7 +307,6 @@ int main()
 - **Globálna** premenná — môže sa používať v celom programe
 - **Lokálna** premenná — môže sa používať len v bloku, v ktorom je definovaná (vymedzenom kučeravými zátvorkami)
 
-<details><summary>📊 Slide</summary><img src="images/img-031.png"></details>
 
 ### Priradenie a inicializácia
 
@@ -407,7 +400,6 @@ int main()
 }
 ```
 
-<details><summary>📊 Slide</summary><img src="images/img-039.png"></details>
 
 ### Formátovaný vstup – scanf()
 
@@ -482,7 +474,6 @@ int main()
 }
 ```
 
-<details><summary>📊 Slide</summary><img src="images/img-048.png"></details>
 
 ### Formátovacie špecifikácie
 
@@ -537,7 +528,6 @@ Niektoré znaky sú vyhradené na formátovanie. Na ich výpis sa používajú e
 | úvodzovka | `\"` | Dvojitá úvodzovka |
 | pípnutie | `\007` | Bell — zvukový signál |
 
-<details><summary>📊 Slide</summary><img src="images/img-057.png"></details>
 
 ### Vstup a výstup znaku – getchar() a putchar()
 
@@ -637,7 +627,6 @@ int main()
 }
 ```
 
-<details><summary>📊 Slide</summary><img src="images/img-052.png"></details>
 
 ---
 
@@ -750,7 +739,6 @@ int main()
 }
 ```
 
-<details><summary>📊 Slide</summary><img src="images/img-054.png"></details>
 
 ---
 

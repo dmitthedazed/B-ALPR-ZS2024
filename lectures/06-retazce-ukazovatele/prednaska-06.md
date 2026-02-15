@@ -56,7 +56,6 @@
 
 ## Reťazce
 
-<details><summary>📊 Slide</summary><img src="images/img-002.png"></details>
 
 ### Čo sú to reťazce
 
@@ -66,7 +65,6 @@ Reťazce sú **jednorozmerné polia typu `char`**:
 - Z celkovej pamäte je aktívna len časť od začiatku poľa do znaku `'\0'` → **ukončovací znak** (null terminator)
 - Ak reťazec nie je ukončený znakom `'\0'`, považuje sa za reťazec celá pamäť až do najbližšieho znaku `'\0'`
 
-<details><summary>📊 Slide</summary><img src="images/img-003.png"></details>
 
 ---
 
@@ -91,7 +89,6 @@ char s[15] = "abrakadabra";  // zvyšné bajty sú '\0'
 > s = "ahoj";   // CHYBA!
 > ```
 
-<details><summary>📊 Slide</summary><img src="images/img-004.png"></details>
 
 ---
 
@@ -431,7 +428,6 @@ int main() {
 
 ## Ukazovatele – prvý náhľad
 
-<details><summary>📊 Slide</summary><img src="images/img-029.png"></details>
 
 ### Čo sú to ukazovatele
 
@@ -448,7 +444,6 @@ Ukazovatele (= pointery, smerníky):
 
 ### Príklad ukazovateľa v pamäti
 
-<details><summary>📊 Slide</summary><img src="images/img-031.png"></details>
 
 | Koncept | Príklad | Vysvetlenie |
 |---------|---------|-------------|
@@ -492,7 +487,6 @@ int i, *p_i;
 
 > **Pozor!** Pred použitím `*p_i` treba inicializovať `p_i` – ukazovateľ musí ukazovať na platné miesto v pamäti (napr. vyhradiť/alokovať pamäť pre `p_i`).
 
-<details><summary>📊 Slide</summary><img src="images/img-033.png"></details>
 
 ---
 
@@ -515,9 +509,7 @@ Po vykonaní `p_i = &i`:
 - Hodnota `p_i` (adresa) sa prepíše **adresou premennej `i`**
 - Hodnota `*p_i` je **tá istá** ako hodnota `i`
 
-<details><summary>📊 Slide – pred priradením</summary><img src="images/img-035.png"></details>
 
-<details><summary>📊 Slide – po priradení</summary><img src="images/img-036.png"></details>
 
 ---
 
@@ -558,13 +550,11 @@ i = &p_i;          // ❌ chyba: priraďovanie adresy do int
 
 `int A(int i)` — vytvorí sa **kópia** parametra na zásobníku:
 
-<details><summary>📊 Slide – volanie hodnotou</summary><img src="images/img-040.png"></details>
 
 ### Volanie odkazom
 
 `int A(int *i)` — predáva sa **adresa** premennej:
 
-<details><summary>📊 Slide – volanie odkazom</summary><img src="images/img-041.png"></details>
 
 ---
 
@@ -670,7 +660,6 @@ for (i = 0; i < n; i++)
     p_i[i] = i + 1;
 ```
 
-<details><summary>📊 Slide – dynamické polia v pamäti</summary><img src="images/img-047.png"></details>
 
 ---
 
@@ -700,7 +689,6 @@ Prideľovanie pamäte za chodu programu:
 
 - **Životnosť dynamických dát:** od alokovania po uvoľnenie pamäte
 
-<details><summary>📊 Slide</summary><img src="images/img-050.png"></details>
 
 ---
 
@@ -722,7 +710,6 @@ p = (int *) malloc(sizeof(int));   // p ukazuje na nový blok
 q = p;          // q teraz ukazuje na ten istý blok ako p
 ```
 
-<details><summary>📊 Slide – vizualizácia</summary><img src="images/img-051.png"></details>
 
 ---
 

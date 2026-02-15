@@ -61,11 +61,8 @@ Prideľovanie pamäte za chodu programu:
 > **Životnosť dynamických dát:** od alokovania po uvoľnenie pamäte.
 
 <details>
-<summary>📷 Znázornenie pamäťového modelu</summary>
 
-![Dynamické prideľovanie pamäte](images/img-002.png)
 
-</details>
 
 ### 1.1 Funkcia `malloc()`
 
@@ -80,11 +77,8 @@ void *malloc(unsigned int pocet_bytov);
 - Ak nie je v pamäti dostatok miesta, vráti `NULL`
 
 <details>
-<summary>📷 Schéma funkcie malloc()</summary>
 
-![Funkcia malloc](images/img-003.png)
 
-</details>
 
 ### 1.2 Testovanie pridelenia pamäte
 
@@ -125,11 +119,8 @@ for (i = 0; i < 20; i++)
 ```
 
 <details>
-<summary>📷 Kedy alokovať pamäť</summary>
 
-![Kedy potrebujeme prideliť pamäť](images/img-005.png)
 
-</details>
 
 ### 1.4 Uvoľňovanie pamäte – `free()`
 
@@ -201,11 +192,8 @@ void *calloc(unsigned int pocet, unsigned int velkost);
 ```
 
 <details>
-<summary>📷 Funkcia calloc()</summary>
 
-![Funkcia calloc](images/img-009.png)
 
-</details>
 
 ---
 
@@ -294,11 +282,8 @@ for (i = 0; i < n; i++)
 > ```
 
 <details>
-<summary>📷 Znázornenie dynamického poľa v pamäti</summary>
 
-![Dynamické polia](images/img-015.png)
 
-</details>
 
 ---
 
@@ -444,11 +429,8 @@ Postup čítania:
 > **Výsledok:** `v` je pointer na funkciu vracajúcu pointer na `int`
 
 <details>
-<summary>📷 Čítanie definícií – vizualizácia</summary>
 
-![Čítanie definícií](images/img-025.png)
 
-</details>
 
 ### 4.3 Definícia s využitím `typedef`
 
@@ -768,11 +750,8 @@ int main()
 ## 9. Viacrozmerné polia
 
 <details>
-<summary>📷 Viacrozmerné polia – úvod</summary>
 
-![Viacrozmerné polia](images/img-044.png)
 
-</details>
 
 ### 9.1 Základné definície
 
@@ -856,11 +835,8 @@ Ekvivalentné zápisy:
 | Hodnota prvku `[i][j]` | `x[i][j]` | `*(*(x + i) + j)` |
 
 <details>
-<summary>📷 Uloženie 2D poľa v pamäti</summary>
 
-![Uloženie v pamäti](images/img-047.png)
 
-</details>
 
 ### 9.4 Spôsoby definície dvojrozmerných polí
 
@@ -947,11 +923,8 @@ xd  →  xd[0]  xd[1]  →  xd[0][0]  xd[0][1]  xd[0][2]
 ```
 
 <details>
-<summary>📷 Ukazovateľ na ukazovateľ – pamäťový model</summary>
 
-![Ukazovateľ na ukazovateľ](images/img-057.png)
 
-</details>
 
 ### 9.5 Porovnanie spôsobov vytvárania polí
 
@@ -983,11 +956,8 @@ xd  →  xd[0]  xd[1]  →  xd[0][0]  xd[0][1]  xd[0][2]
 | `int **xd` | **Zubaté** pole (rôzne dĺžky riadkov) |
 
 <details>
-<summary>📷 Porovnanie pamäťových nárokov</summary>
 
-![Porovnanie pamäťových nárokov](images/img-062.png)
 
-</details>
 
 ### 9.6 Zubaté pole
 
@@ -1159,11 +1129,8 @@ for (i = 0; i < 4; i++)
 ```
 
 <details>
-<summary>📷 Pole reťazcov – pamäťový model</summary>
 
-![Pole reťazcov](images/img-071.png)
 
-</details>
 
 ---
 
@@ -1367,11 +1334,8 @@ void vymen(int m1[N][N], int m2[N][N])
 ```
 
 <details>
-<summary>📷 Kompletný príklad – výstup programu</summary>
 
-![Príklad práca s maticami](images/img-085.png)
 
-</details>
 
 ---
 

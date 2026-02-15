@@ -40,11 +40,8 @@
 ## Typová konverzia
 
 <details>
-<summary>🖼️ Titulný obrázok – Typová konverzia</summary>
 
-![Typová konverzia](images/img-002.png)
 
-</details>
 
 ### Implicitná typová konverzia
 
@@ -89,13 +86,8 @@ i = 5.0;       // i bude mať hodnotu 5 (desatinná časť sa odreže)
 ```
 
 <details>
-<summary>🖼️ Pravidlá implicitnej konverzie</summary>
 
-![Pravidlá 1](images/img-004.png)
-![Pravidlá 2](images/img-005.png)
-![Pravidlá 3](images/img-006.png)
 
-</details>
 
 ---
 
@@ -170,12 +162,8 @@ f = sqrt((double) i);    // sqrt() vráti druhú odmocninu
 > Nie je to nutné (implicitná konverzia by to zvládla), ale zvyšuje to čitateľnosť.
 
 <details>
-<summary>🖼️ Explicitná konverzia</summary>
 
-![Explicitná konverzia](images/img-010.png)
-![Explicitná konverzia – ukazovatele](images/img-011.png)
 
-</details>
 
 ---
 
@@ -204,11 +192,8 @@ int main() {
 ## Preprocesor
 
 <details>
-<summary>🖼️ Titulný obrázok – Preprocesor</summary>
 
-![Preprocesor](images/img-013.png)
 
-</details>
 
 ### Činnosť preprocesora
 
@@ -432,12 +417,8 @@ sqrt(f + g);              // po rozvinutí: ((f + g) * (f + g))
 ```
 
 <details>
-<summary>🖼️ Makrá s parametrami</summary>
 
-![Makrá s parametrami](images/img-027.png)
-![Chyby v makrách](images/img-028.png)
 
-</details>
 
 ---
 
@@ -577,11 +558,8 @@ Moduly:
 ## Príklady
 
 <details>
-<summary>🖼️ Titulný obrázok – Príklady</summary>
 
-![Príklady](images/img-039.png)
 
-</details>
 
 ### Príklad 1: súčet prvých N čísel
 
