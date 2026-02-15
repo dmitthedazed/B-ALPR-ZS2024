@@ -1,0 +1,32 @@
+# Compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dll
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# CodeBlocks project files
+*.cbp
+*.layout
+*.depend
+
+# Build directories
+build/
+bin/
+obj/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
