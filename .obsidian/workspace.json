@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "fa502b0bb06fd6d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebbceeea740192c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99cba82e01fae5b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lectures/01-uvod/prednaska-01.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "prednaska-01"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "65c145c987e73727",
+    "type": "split",
+    "children": [
+      {
+        "id": "4943136255a7e77b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9df93cc674d63d9c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9f86010fa5cab1d4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "390493fcf4df0c44",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3b732032287b5631",
+    "type": "split",
+    "children": [
+      {
+        "id": "e63754bc44172eee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c69c43f0166feb4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "lectures/01-uvod/prednaska-01.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for prednaska-01"
+            }
+          },
+          {
+            "id": "bdd183ea5cb1d7cd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "lectures/01-uvod/prednaska-01.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from prednaska-01"
+            }
+          },
+          {
+            "id": "5870a1c42fe6ef00",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f379ec048f9835c4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a1f2e04b0caa58be",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "lectures/01-uvod/prednaska-01.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of prednaska-01"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "99cba82e01fae5b3",
+  "lastOpenFiles": [
+    "labs/11-spajane-zoznamy/zadanie-11.md",
+    "labs/10-struktury/zadanie-10.md",
+    "labs/09-dynamicke-polia/zadanie-09.md",
+    "labs/08-2d-polia/zadanie-08.md",
+    "labs/07-sifrovanie/zadanie-07.md",
+    "labs/06-retazce/zadanie-06.md",
+    "labs/05-subory-polia/zadanie-05.md",
+    "labs/04-subory/zadanie-04.md",
+    "labs/03-cykly-statistika/zadanie-03.md",
+    "labs/02-podmienky/zadanie-02.md",
+    "labs/01-uvod/zadanie-01.md",
+    "lectures/12-opakovanie/prednaska-12.md",
+    "lectures/11-typova-konverzia-preprocesor/prednaska-11.md",
+    "lectures/10-smernikovy-deep-dive/prednaska-10.md",
+    "lectures/09-struktury-zoznamy/prednaska-09.md",
+    "lectures/08-dynamicka-pamat/prednaska-08.md",
+    "lectures/07-ukazovatele-vyhladavanie/prednaska-07.md",
+    "lectures/06-retazce-ukazovatele/prednaska-06.md",
+    "lectures/05-funkcie-polia/prednaska-05.md",
+    "lectures/04-subory/prednaska-04.md",
+    "lectures/03-cykly/prednaska-03.md",
+    "lectures/02-konstanty-operatory/prednaska-02.md",
+    "lectures/01-uvod/prednaska-01.md",
+    "labs/11-spajane-zoznamy/zadanie.md",
+    "labs/10-struktury/zadanie.md",
+    "labs/09-dynamicke-polia/zadanie.md"
+  ]
+}
