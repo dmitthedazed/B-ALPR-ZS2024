@@ -6,17 +6,19 @@
 
 Winter semester 2024/2025, FEI STU Bratislava. Lecturer: Mgr. Ján Grman, PhD.
 
-[![Build](https://github.com/dmitthedazed/B-ALPR-ZS2024/actions/workflows/build.yml/badge.svg)](https://github.com/dmitthedazed/B-ALPR-ZS2024/actions/workflows/build.yml)
-![C99](https://img.shields.io/badge/C-C99-A8B9CC?logo=c&logoColor=white)
-![Lectures](https://img.shields.io/badge/Lectures-12-blue)
-![Labs](https://img.shields.io/badge/Labs-11-blue)
-[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
+[![Build](https://img.shields.io/github/actions/workflow/status/dmitthedazed/B-ALPR-ZS2024/build.yml?style=flat-square&label=Build)](https://github.com/dmitthedazed/B-ALPR-ZS2024/actions/workflows/build.yml)
+![C99](https://img.shields.io/badge/C-C99-A8B9CC?logo=c&logoColor=white&style=flat-square)
+![Lectures](https://img.shields.io/badge/Lectures-12-blue?style=flat-square)
+![Labs](https://img.shields.io/badge/Labs-11-blue?style=flat-square)
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)](LICENSE)
 
 <p align="center"><b>English</b> · <a href="README.sk.md">Slovenčina</a></p>
 
 </div>
 
 > [!NOTE]
+> Archived. The course is over, so this repository is read-only and kept for reference.
+>
 > The lecture notes and assignments are written in Slovak. CI compiles every solution with `gcc -std=c99` whenever `labs/**/*.c` changes.
 
 ## Lectures
@@ -102,11 +104,6 @@ gcc -std=c99 -Wall -o riesenie labs/01-uvod/riesenie-01.c && ./riesenie
 - **Wirth, N.** *Algoritmy a štruktúry údajov.* Bratislava: Alfa, 1989. ISBN 80-05-00153-3.
 - **Prokop, J.** *Algoritmy v jazyku C a C++.* Praha: Grada Publishing, 2012.
 
+## License
 
----
-
-<div align="center">
-
-Dmytrii Savin ([@dmitthedazed](https://github.com/dmitthedazed)). Licensed under the [MIT License](LICENSE).
-
-</div>
+[MIT](LICENSE) © Dmytrii Savin

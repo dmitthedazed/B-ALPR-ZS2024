@@ -6,17 +6,19 @@
 
 Zimný semester 2024/2025, FEI STU Bratislava. Prednášajúci: Mgr. Ján Grman, PhD.
 
-[![Build](https://github.com/dmitthedazed/B-ALPR-ZS2024/actions/workflows/build.yml/badge.svg)](https://github.com/dmitthedazed/B-ALPR-ZS2024/actions/workflows/build.yml)
-![C99](https://img.shields.io/badge/C-C99-A8B9CC?logo=c&logoColor=white)
-![Prednášky](https://img.shields.io/badge/Predn%C3%A1%C5%A1ky-12-blue)
-![Cvičenia](https://img.shields.io/badge/Cvi%C4%8Denia-11-blue)
-[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
+[![Build](https://img.shields.io/github/actions/workflow/status/dmitthedazed/B-ALPR-ZS2024/build.yml?style=flat-square&label=Build)](https://github.com/dmitthedazed/B-ALPR-ZS2024/actions/workflows/build.yml)
+![C99](https://img.shields.io/badge/C-C99-A8B9CC?logo=c&logoColor=white&style=flat-square)
+![Prednášky](https://img.shields.io/badge/Predn%C3%A1%C5%A1ky-12-blue?style=flat-square)
+![Cvičenia](https://img.shields.io/badge/Cvi%C4%8Denia-11-blue?style=flat-square)
+[![Licencia: MIT](https://img.shields.io/badge/Licencia-MIT-lightgrey?style=flat-square)](LICENSE)
 
 <p align="center"><a href="README.md">English</a> · <b>Slovenčina</b></p>
 
 </div>
 
 > [!NOTE]
+> Archivované. Predmet je ukončený, repozitár je len na čítanie a slúži ako referencia.
+>
 > Riešenia sa kompilujú v CI (`gcc -std=c99`) pri každej zmene súborov `labs/**/*.c`.
 
 ## Prednášky
@@ -44,7 +46,7 @@ Každé cvičenie má zadanie (`zadanie-NN.md`) a riešenie (`riesenie-NN.c`).
 
 | # | Téma | Súvisiaca prednáška | Riešenie |
 |:-:|------|:-------------------:|:--------:|
-| 1 | [Úvod — prvý program v C](labs/01-uvod/zadanie-01.md) | [P1](lectures/01-uvod/prednaska-01.md) | [riesenie-01.c](labs/01-uvod/riesenie-01.c) |
+| 1 | [Úvod: prvý program v C](labs/01-uvod/zadanie-01.md) | [P1](lectures/01-uvod/prednaska-01.md) | [riesenie-01.c](labs/01-uvod/riesenie-01.c) |
 | 2 | [Podmienky a vetvenie](labs/02-podmienky/zadanie-02.md) | [P2](lectures/02-konstanty-operatory/prednaska-02.md) | [riesenie-02.c](labs/02-podmienky/riesenie-02.c) |
 | 3 | [Cykly a štatistika](labs/03-cykly-statistika/zadanie-03.md) | [P3](lectures/03-cykly/prednaska-03.md) | [riesenie-03.c](labs/03-cykly-statistika/riesenie-03.c) |
 | 4 | [Práca so súbormi](labs/04-subory/zadanie-04.md) | [P4](lectures/04-subory/prednaska-04.md) | [riesenie-04.c](labs/04-subory/riesenie-04.c) |
@@ -102,10 +104,6 @@ gcc -std=c99 -Wall -o riesenie labs/01-uvod/riesenie-01.c && ./riesenie
 - **Wirth, N.** *Algoritmy a štruktúry údajov.* Bratislava: Alfa, 1989. ISBN 80-05-00153-3.
 - **Prokop, J.** *Algoritmy v jazyku C a C++.* Praha: Grada Publishing, 2012.
 
----
+## Licencia
 
-<div align="center">
-
-Dmytrii Savin ([@dmitthedazed](https://github.com/dmitthedazed)). Licensed under the [MIT License](LICENSE).
-
-</div>
+[MIT](LICENSE) © Dmytrii Savin
