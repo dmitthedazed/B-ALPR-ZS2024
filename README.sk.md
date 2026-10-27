@@ -56,6 +56,14 @@ Každé cvičenie má zadanie (`zadanie-NN.md`) a riešenie (`riesenie-NN.c`).
 | 10 | [Štruktúry](labs/10-struktury/zadanie-10.md) | [P9](lectures/09-struktury-zoznamy/prednaska-09.md) | [riesenie-10.c](labs/10-struktury/riesenie-10.c) |
 | 11 | [Spájané zoznamy](labs/11-spajane-zoznamy/zadanie-11.md) | [P9](lectures/09-struktury-zoznamy/prednaska-09.md) | [riesenie-11.c](labs/11-spajane-zoznamy/riesenie-11.c) |
 
+## Testy
+
+`tests/run.sh` preloží cvičenia 1, 3, 4 a 7 až 11 s AddressSanitizer a UBSan, spustí ich na vstupoch z `tests/NN-nazov/` (`stdin` a vstupné súbory) a porovná výstup so súborom `expected`. Cvičenia 2, 5 a 6 zatiaľ nie sú pokryté.
+
+```sh
+tests/run.sh
+```
+
 ## Štruktúra
 
 ```

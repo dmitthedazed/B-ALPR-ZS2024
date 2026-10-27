@@ -56,6 +56,14 @@ Each lab has an assignment (`zadanie-NN.md`) and a solution (`riesenie-NN.c`).
 | 10 | [Structs](labs/10-struktury/zadanie-10.md) | [P9](lectures/09-struktury-zoznamy/prednaska-09.md) | [riesenie-10.c](labs/10-struktury/riesenie-10.c) |
 | 11 | [Linked lists](labs/11-spajane-zoznamy/zadanie-11.md) | [P9](lectures/09-struktury-zoznamy/prednaska-09.md) | [riesenie-11.c](labs/11-spajane-zoznamy/riesenie-11.c) |
 
+## Tests
+
+`tests/run.sh` builds labs 1, 3, 4 and 7 to 11 with AddressSanitizer and UBSan, runs them on the fixtures in `tests/NN-name/` (`stdin` plus input files) and compares stdout with `expected`. Labs 2, 5 and 6 are not covered yet.
+
+```sh
+tests/run.sh
+```
+
 ## Layout
 
 ```text

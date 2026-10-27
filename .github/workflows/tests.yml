@@ -1,0 +1,25 @@
+name: Tests
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'labs/**/*.c'
+      - 'tests/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'labs/**/*.c'
+      - 'tests/**'
+  workflow_dispatch:
+
+jobs:
+  tests:
+    name: Run lab tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run tests
+        run: tests/run.sh
