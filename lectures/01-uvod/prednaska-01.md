@@ -746,4 +746,4 @@ int main()
 
 ---
 
-← Predchádzajúca | [Hlavná stránka](../../README.md) | [Nasledujúca →](../02-konstanty-operatory/README.md)
+← Predchádzajúca | [Hlavná stránka](../../README.md) | [Nasledujúca →](../02-konstanty-operatory/prednaska-02.md)
